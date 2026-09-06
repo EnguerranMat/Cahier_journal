@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cahier-journal MS / GS</title>
+<link rel="stylesheet" href="ui.css">
+</head>
+<body>
+
+<header class="barre">
+  <div class="barre-g">
+    <div class="titre">Cahier-journal <span>MS / GS</span></div>
+    <select id="choixSemaine" aria-label="Semaine"></select>
+    <button id="nouvelleSemaine" class="btn ghost">Nouvelle semaine…</button>
+  </div>
+  <div class="barre-d">
+    <span id="etat" class="etat" role="status"></span>
+    <button id="imprimer" class="btn primary">Imprimer</button>
+  </div>
+</header>
+
+<div class="entete">
+  <div id="repere" class="repere"></div>
+  <label class="contexte">
+    <span>Contexte de la semaine</span>
+    <input id="contexte" type="text" placeholder="sortie scolaire, remplacement, semaine du goût… — apparaît en haut de chaque page">
+  </label>
+</div>
+
+<nav id="onglets" class="onglets" aria-label="Jours"></nav>
+
+<main id="jour" class="jour"></main>
+
+<!-- sélecteur de compétences -->
+<div id="voile" class="voile" hidden>
+  <div class="palette" role="dialog" aria-modal="true" aria-labelledby="paletteTitre">
+    <div class="palette-t">
+      <strong id="paletteTitre">Compétence travaillée</strong>
+      <button id="fermerPalette" class="btn ghost" aria-label="Fermer">Fermer</button>
+    </div>
+    <input id="recherche" type="search" autocomplete="off"
+           placeholder="Chercher : « syllabe », « L12 », « collection »…">
+    <div id="resultats" class="resultats"></div>
+    <div class="palette-p">
+      <label>Ou saisir librement <small>(motricité, arts, explorer le monde — pas de référentiel)</small></label>
+      <div class="libre">
+        <input id="compLibre" type="text" placeholder="Compétence hors livret">
+        <button id="ajouterLibre" class="btn">Ajouter</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="ui.js"></script>
+</body>
+</html>

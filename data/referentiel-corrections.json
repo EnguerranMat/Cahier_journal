@@ -1,0 +1,40 @@
+{
+  "_lisezMoi": "Corrections appliquées par-dessus l'extraction automatique des livrets PDF. Ce fichier est la mémoire des décisions humaines : il survit à une ré-extraction. Clé = code de compétence, ou code-numéro d'étape.",
+  "competences": {
+    "M8": {
+      "sansEtapes": true,
+      "note": "Confirmé par Audrey : le livret ne détaille pas d'étapes. La compétence se travaille telle quelle."
+    },
+    "L1": {
+      "sansEtapes": true,
+      "libelle": "Je comprends, je mémorise et j’utilise les mots liés au thème du moment",
+      "note": "Confirmé par Audrey : pas d'étapes numérotées, le livret liste des thèmes de vocabulaire. Libellé fourni par Audrey le 5 septembre 2026."
+    }
+  },
+  "etapes": {
+    "L4-4": {
+      "supprimee": true,
+      "note": "Confirmé par Audrey : L4 n'a que 3 étapes. La 4e case numérotée du PDF ne correspond à aucune étape."
+    },
+    "L9-4": {
+      "supprimee": true,
+      "note": "Confirmé par Audrey : L9 n'a que 3 étapes. La 4e case numérotée du PDF ne correspond à aucune étape."
+    },
+    "L6-1": {
+      "libelle": "Je prononce distinctement les voyelles, y compris les nasales.",
+      "note": "Répétition du PDF supprimée ; libellé validé par Audrey."
+    },
+    "L7-5": {
+      "libelle": "Je regarde celui à qui je m’adresse, j’articule et je parle assez fort pour être entendu.",
+      "note": "Répétition du PDF supprimée ; libellé validé par Audrey."
+    },
+    "L8-2": {
+      "libelle": "J’explique comment j’ai réalisé quelque chose (une activité, une production).",
+      "note": "Répétition du PDF supprimée ; libellé validé par Audrey."
+    },
+    "L17-2": {
+      "libelle": "J’identifie les principales informations (personnages, actions, lieux…).",
+      "note": "Répétition du PDF supprimée ; libellé validé par Audrey."
+    }
+  }
+}

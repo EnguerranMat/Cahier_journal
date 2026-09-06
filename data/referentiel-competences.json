@@ -1,0 +1,1406 @@
+{
+  "version": 1,
+  "statut": "extraction automatique — en attente de relecture par Audrey",
+  "domaines": [
+    {
+      "id": "francais",
+      "libelle": "Français — langage oral et écrit",
+      "prefixeCode": "L",
+      "source": "livret français 2026 OK.pdf"
+    },
+    {
+      "id": "maths",
+      "libelle": "Mathématiques — premiers outils mathématiques",
+      "prefixeCode": "M",
+      "source": "livret maths 2026 OK V2.pdf"
+    }
+  ],
+  "domainesSansReferentiel": [
+    {
+      "id": "motricite",
+      "libelle": "Agir, s'exprimer, comprendre à travers l'activité physique"
+    },
+    {
+      "id": "arts",
+      "libelle": "Agir, s'exprimer, comprendre à travers les activités artistiques"
+    },
+    {
+      "id": "monde",
+      "libelle": "Explorer le monde"
+    }
+  ],
+  "competences": [
+    {
+      "code": "L1",
+      "domaine": "francais",
+      "famille": "ENRICHIR SON VOCABULAIRE",
+      "intitule": "Comprendre, mémoriser et réemployer les mots enseignés",
+      "pageLivret": 3,
+      "etapes": [],
+      "aRelire": false,
+      "motif": null,
+      "sansEtapes": true,
+      "libelle": "Je comprends, je mémorise et j’utilise les mots liés au thème du moment",
+      "note": "Confirmé par Audrey : pas d'étapes numérotées, le livret liste des thèmes de vocabulaire. Libellé fourni par Audrey le 5 septembre 2026."
+    },
+    {
+      "code": "L2",
+      "domaine": "francais",
+      "famille": "ENRICHIR SON VOCABULAIRE",
+      "intitule": "Organiser les mots en catégories et en réseau",
+      "pageLivret": 4,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je range des objets et des images par catégories.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je nomme la catégorie qui englobe plusieurs mots connus.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je retrouve un intrus.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "J’organise les mots en réseaux (synonymes, contraires, familles de mots…).",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "L3",
+      "domaine": "francais",
+      "famille": "DÉVELOPPER SA SYNTAXE",
+      "intitule": "Diversifier les pronoms employés",
+      "pageLivret": 4,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je sais dire « je » quand je parle de moi.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "J’utilise les pronoms il/elle, ils/elles.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "J’utilise le pronom tu.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "J’utilise les pronoms on, nous et vous.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "L4",
+      "domaine": "francais",
+      "famille": "DÉVELOPPER SA SYNTAXE",
+      "intitule": "Formuler des énoncés de plus en plus complexes",
+      "pageLivret": 5,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "J’utilise des mots pour me faire comprendre.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je construis des phrases simples et correctes.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je construis des phrases complexes en utilisant des mots de liaison (parce que, quand, alors, mais…).",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "L5",
+      "domaine": "francais",
+      "famille": "DÉVELOPPER SA SYNTAXE",
+      "intitule": "Construire à l’oral un système de temps efficace",
+      "pageLivret": 5,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "J’utilise le présent.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "J’utilise le passé.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "J’utilise le futur.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je combine le présent, le passé et le futur.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "L6",
+      "domaine": "francais",
+      "famille": "ARTICULER DISTINCTEMENT",
+      "intitule": "Distinguer et prononcer des sons",
+      "pageLivret": 6,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je prononce distinctement les voyelles, y compris les nasales.",
+          "aRelire": false,
+          "motif": null,
+          "note": "Répétition du PDF supprimée ; libellé validé par Audrey."
+        },
+        {
+          "numero": 2,
+          "libelle": "J’articule des sons qui se ressemblent (t/k, f/v, s/z…).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je distingue la différence entre des mots proches.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je prononce les groupes de consonnes.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "L7",
+      "domaine": "francais",
+      "famille": "PRODUIRE DES DISCOURS VARIÉS",
+      "intitule": "Entrer en communication verbale",
+      "pageLivret": 6,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je parle avec les autres enfants.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je parle avec les adultes de l’école.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je réponds à une question.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je parle dans le groupe.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 5,
+          "libelle": "Je regarde celui à qui je m’adresse, j’articule et je parle assez fort pour être entendu.",
+          "aRelire": false,
+          "motif": null,
+          "note": "Répétition du PDF supprimée ; libellé validé par Audrey."
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "L8",
+      "domaine": "francais",
+      "famille": "PRODUIRE DES DISCOURS VARIÉS",
+      "intitule": "Expliquer et décrire",
+      "pageLivret": 7,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je décris un objet ou une image (sa forme, sa couleur, ce qu’il fait…).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "J’explique comment j’ai réalisé quelque chose (une activité, une production).",
+          "aRelire": false,
+          "motif": null,
+          "note": "Répétition du PDF supprimée ; libellé validé par Audrey."
+        },
+        {
+          "numero": 3,
+          "libelle": "Je décris les ressemblances et les différences entre deux choses.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je propose une hypothèse pour expliquer un phénomène (« Je pense que… parce que… »).",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "L9",
+      "domaine": "francais",
+      "famille": "DIRE DE MÉMOIRE",
+      "intitule": "Oraliser un texte mémorisé",
+      "pageLivret": 7,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je récite un texte mémorisé avec mes camarades.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je récite un texte mémorisé seul.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je récite un texte mémorisé de manière expressive.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "L10",
+      "domaine": "francais",
+      "famille": "PARTICIPER ET RACONTER",
+      "intitule": "Participer à une conversation et raconter",
+      "pageLivret": 8,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "J’attends mon tour pour prendre la parole et j’écoute mes camarades.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je participe en restant dans le propos de l’échange.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je sais raconter en respectant la chronologie (début, milieu, fin).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je participe à une conversation et je reformule si besoin.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 5,
+          "libelle": "Je raconte une activité vécue en classe à un adulte qui n’était pas là.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "L11",
+      "domaine": "francais",
+      "famille": "ACQUÉRIR LES HABILETÉS PHONOLOGIQUES ET LE PRINCIPE ALPHABÉTIQUE",
+      "intitule": "Écouter, identifier, discriminer et reproduire des sons",
+      "pageLivret": 8,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "J’identifie et je distingue des sons familiers.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je différencie des sons proches.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je reproduis des sons et des intonations.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "J’identifie un son dans un mot.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 5,
+          "libelle": "Je localise la place d’un son dans un mot.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "L12",
+      "domaine": "francais",
+      "famille": "ACQUÉRIR LES HABILETÉS PHONOLOGIQUES ET LE PRINCIPE ALPHABÉTIQUE",
+      "intitule": "Manipuler des syllabes orales puis des phonèmes",
+      "pageLivret": 9,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je scande et je frappe les syllabes d’un mot.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je dénombre les syllabes d’un mot.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je repère une syllabe dans un mot (au début, à la fin…).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je manipule des syllabes : j’enlève, j’ajoute, j’inverse, je remplace, je combine.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 5,
+          "libelle": "J’entends, je discrimine, je manipule les phonèmes.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "L13",
+      "domaine": "francais",
+      "famille": "ACQUÉRIR LES HABILETÉS PHONOLOGIQUES ET LE PRINCIPE ALPHABÉTIQUE",
+      "intitule": "Reconnaître son prénom",
+      "pageLivret": 9,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je reconnais l’initiale de mon prénom.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je reconnais mon prénom en capitales.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je reconnais mon prénom en script.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je reconnais mon prénom en cursive.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 5,
+          "libelle": "J’identifie d’autres prénoms.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "L14",
+      "domaine": "francais",
+      "famille": "ACQUÉRIR LES HABILETÉS PHONOLOGIQUES ET LE PRINCIPE ALPHABÉTIQUE",
+      "intitule": "Connaître le nom des lettres et des sons",
+      "pageLivret": 10,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je reconnais la majorité des lettres de l’alphabet en capitales.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je reconnais la majorité des lettres de l’alphabet en script.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je reconnais la majorité des lettres de l’alphabet en cursives.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je fais correspondre les trois écritures (capitales, script, cursive).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 5,
+          "libelle": "Je sais donner le son de la plupart des lettres (voyelles, consonnes fricatives).",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "L15",
+      "domaine": "francais",
+      "famille": "ÉVEIL À LA DIVERSITÉ LINGUISTIQUE",
+      "intitule": "Écouter et reproduire des sons d’autres langues",
+      "pageLivret": 10,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "J’écoute des chants et des comptines en français et en langue étrangère.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je répète quelques mots d’une autre langue.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je compare des sons nouveaux avec ceux de la langue française.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je mémorise quelques mots ou consignes simples dans une autre langue.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 5,
+          "libelle": "Je mémorise des comptines et des chants dans une autre langue.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "L16",
+      "domaine": "francais",
+      "famille": "ÉCOUTER ET COMPRENDRE DIFFÉRENTES FORMES D’ÉCRITS",
+      "intitule": "Découvrir les supports de l’écrit",
+      "pageLivret": 11,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je manipule correctement un livre et je comprends qu’il contient une histoire ou des informations.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je connais quelques éléments d’un livre (couverture, titre, auteur…).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je reconnais différents types d’écrits et je sais à quoi ils servent.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je repère la structure de formes d’écrits utilisées en classe.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "L17",
+      "domaine": "francais",
+      "famille": "ÉCOUTER ET COMPRENDRE DIFFÉRENTES FORMES D’ÉCRITS",
+      "intitule": "Comprendre des textes lus par le professeur",
+      "pageLivret": 11,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "J’écoute une histoire jusqu’au bout en restant attentif.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "J’identifie les principales informations (personnages, actions, lieux…).",
+          "aRelire": false,
+          "motif": null,
+          "note": "Répétition du PDF supprimée ; libellé validé par Audrey."
+        },
+        {
+          "numero": 3,
+          "libelle": "J’identifie les émotions des personnages.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je reformule une histoire avec mes propres mots (AVEC ou SANS support)",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 5,
+          "libelle": "Je raconte une histoire en faisant parler les personnages (marottes…)",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "L18",
+      "domaine": "francais",
+      "famille": "APPRENDRE LE GESTE DE L’ÉCRITURE",
+      "intitule": "Se préparer au geste d’écriture",
+      "pageLivret": 12,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je participe aux activités de motricité fine.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "J’adopte une posture confortable et je tiens correctement mon crayon.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je trace des traits, des ronds, des ponts…",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je gère l’espace de la feuille (de gauche à droite, de haut en bas).",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "L19",
+      "domaine": "francais",
+      "famille": "APPRENDRE LE GESTE DE L’ÉCRITURE",
+      "intitule": "Écrire en capitales et en cursives",
+      "pageLivret": 12,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "J’écris mon prénom en lettres capitales.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je copie des mots, des phrases en lettres capitales.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "J’écris mon prénom en cursive.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je trace des lettres en cursives de manière de plus en plus fluide.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 5,
+          "libelle": "J’écris un mot, une phrase en lettres cursives.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "L20",
+      "domaine": "francais",
+      "famille": "PRODUIRE DE PREMIERS ÉCRITS",
+      "intitule": "Passer de l’oral à l’écrit",
+      "pageLivret": 13,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je différencie dessins, écritures et graphismes.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je demande à l’adulte d’écrire pour moi pour garder un message en mémoire ou le transmettre à quelqu’un.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je participle à une dictée à l’adulte: je propose des idées, je construis une phrase correcte à l’oral et j’adapte mon débit pour laisser le temps d’écrire.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je comprends qu’une phrase est composée de mots séparés: je retrouve un mot précis dans une phrase écrite connue et j’explique comment je l’ai trouvé.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "L21",
+      "domaine": "francais",
+      "famille": "PRODUIRE DE PREMIERS ÉCRITS",
+      "intitule": "Produire des écrits",
+      "pageLivret": 13,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je produis des traces avec l’intention d’écrire: je sais que ce n’est pas un dessin.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je copie un mot ou une courte phrase à partir d’un modèle disponible dans la classe.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "J’essaie d’écrire un mot simple en cherchant les lettres qui correspondent aux sons que j’entends, avec l’aide des outils de la classe.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je propose l’ écriture d’ un m ot sim ple et j’ explique la stratég ie que j’ ai utilisée.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 5,
+          "libelle": "J’écris seul un mot simple en m’appuyant sur ma connaissance des lettres et des sons, sans modèle.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "M1",
+      "domaine": "maths",
+      "famille": "DÉCOUVRIR LES NOMBRES",
+      "intitule": "Comparer des quantités",
+      "pageLivret": 1,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je sais dire s’il y a peu ou beaucoup d’objets.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je sais comparer 2 collections sans compter.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je sais qu’une collection garde la même quantité si on change la disposition des objets (sans ajouter ni enlever).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je sais comparer deux collections en comptant (jusqu’à 5).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 5,
+          "libelle": "Je sais comparer deux collections en comptant (jusqu’à 10).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 6,
+          "libelle": "Je sais trouver l’écart entre deux collections.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "M2",
+      "domaine": "maths",
+      "famille": "DÉCOUVRIR LES NOMBRES",
+      "intitule": "Constituer des collections",
+      "pageLivret": 1,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je sais constituer une collection égale à un modèle.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je sais réaliser une collection d’un nombre donné (jusqu’à 3).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je sais réaliser une collection d’un nombre donné (jusqu’à 6).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je sais réaliser une collection d’un nombre donné (jusqu’à 10).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 5,
+          "libelle": "Je sais réaliser une collection à partir d’une représentation analogique (doigts, constellation de dé).",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "M3",
+      "domaine": "maths",
+      "famille": "DÉCOUVRIR LES NOMBRES",
+      "intitule": "Repérer un rang ou une position",
+      "pageLivret": 2,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je repère le premier et le dernier d’une file.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je sais donner la position d’un objet dans un rang en comptant (jusqu’à 5 éléments).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je me repère sur une bande numérique (je positionne des nombres, je complète une bande lacunaire).",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "M4",
+      "domaine": "maths",
+      "famille": "DÉCOUVRIR LES NOMBRES",
+      "intitule": "Reconnaître les doigts de la main",
+      "pageLivret": 2,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je sais dire rapidement combien il y a de doigts jusqu’à 3.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je sais dire rapidement combien il y a de doigts jusqu’à 5.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je sais dire rapidement combien il y a de doigts jusqu’à 10.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "M5",
+      "domaine": "maths",
+      "famille": "DÉCOUVRIR LES NOMBRES",
+      "intitule": "Reconnaître les constellations du dé",
+      "pageLivret": 3,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je sais dire rapidement combien il y a de points jusqu’à 3.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je sais dire rapidement combien il y a de points jusqu’à 6.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je sais dire rapidement combien il y a de points jusqu’à 12.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "M6",
+      "domaine": "maths",
+      "famille": "DÉCOUVRIR LES NOMBRES",
+      "intitule": "Reconnaître les chiffres",
+      "pageLivret": 3,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je nomme les chiffres jusqu’à 3.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je nomme les chiffres jusqu’à 6.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je nomme les chiffres jusqu’à 10.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "M7",
+      "domaine": "maths",
+      "famille": "DÉCOUVRIR LES NOMBRES",
+      "intitule": "Réciter la comptine numérique",
+      "pageLivret": 4,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je récite la comptine numérique jusqu’à 6.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je récite la comptine numérique jusqu’à 12.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je récite la comptine jusqu’à 30.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je récite la comptine en partant d’un nombre autre que 1.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 5,
+          "libelle": "Je récite la comptine à rebours de 10 à 1.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "M8",
+      "domaine": "maths",
+      "famille": "DÉCOUVRIR LES NOMBRES",
+      "intitule": "Écrire des chiffres",
+      "pageLivret": 4,
+      "etapes": [],
+      "aRelire": false,
+      "motif": null,
+      "sansEtapes": true,
+      "note": "Confirmé par Audrey : le livret ne détaille pas d'étapes. La compétence se travaille telle quelle."
+    },
+    {
+      "code": "M10",
+      "domaine": "maths",
+      "famille": "DÉCOUVRIR LES NOMBRES",
+      "intitule": "Quantifier et décomposer les nombres",
+      "pageLivret": 5,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je sais décomposer de petits nombres avec mes doigts (2, puis 3, puis 4).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je sais compléter ou réduire une collection pour atteindre 5 (en ajoutant ou en enlevant).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je sais trouver et exprimer différentes décompositions de nombres jusqu’à 5 (ex : « 5, c’est 3 et 2 »).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je sais compléter ou réduire une collection pour atteindre 10.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 5,
+          "libelle": "Je sais trouver différentes décompositions d’un même nombre jusqu’à 10.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "M12",
+      "domaine": "maths",
+      "famille": "EXPLORER LES FORMES ET LES GRANDEURS",
+      "intitule": "Reconnaître, trier, classer des objets",
+      "pageLivret": 5,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je trie des objets selon leur couleur.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je classe selon la forme.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je classe selon la taille.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je classe selon plusieurs critères.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "M13",
+      "domaine": "maths",
+      "famille": "EXPLORER LES FORMES ET LES GRANDEURS",
+      "intitule": "Reproduire des puzzles",
+      "pageLivret": 6,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je réalise un encastrement / puzzle très simple (4 pièces).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je réalise un puzzle de 12 pièces.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je réalise un puzzle de 48 pièces.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "J’utilise des stratégies pour réaliser un puzzle (coins…).",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "M14",
+      "domaine": "maths",
+      "famille": "EXPLORER LES FORMES ET LES GRANDEURS",
+      "intitule": "Reproduire un assemblage",
+      "pageLivret": 6,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je reproduis un assemblage en posant les pièces sur le modèle (taille réelle).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je reproduis un assemblage à côté du modèle (taille réelle).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je reproduis un assemblage à partir d’un modèle réduit.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je reproduis un pavage.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "M15",
+      "domaine": "maths",
+      "famille": "EXPLORER LES FORMES ET LES GRANDEURS",
+      "intitule": "Reconnaître, décrire, reproduire des solides",
+      "pageLivret": 7,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je reconnais et nomme des solides simples (cube, boule, cylindre, pyramide).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je trie et classe des solides selon leurs caractéristiques (forme des faces, arêtes…).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je décris un solide avec des mots simples pour le différencier d’un autre.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je reproduis un assemblage de solides à partir d’un modèle.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "M16",
+      "domaine": "maths",
+      "famille": "EXPLORER LES FORMES ET LES GRANDEURS",
+      "intitule": "Reconnaître, décrire, reproduire des formes planes",
+      "pageLivret": 7,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je reconnais et nomme des formes géométriques simples (triangle, carré, rectangle, cercle).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je sais reconnaître un polygone et compter ses côtés.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je classe des polygones selon leur nombre de côtés et sommets.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je sais utiliser une règle pour tracer.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "M17",
+      "domaine": "maths",
+      "famille": "EXPLORER LES FORMES ET LES GRANDEURS",
+      "intitule": "Ranger des objets selon leur taille, leur longueur",
+      "pageLivret": 8,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je sais identifier le petit, le moyen et le grand.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je sais ranger des objets selon leur taille / longueur.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je sais utiliser une bande témoin pour y reporter différentes longueurs afin de les comparer.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "M18",
+      "domaine": "maths",
+      "famille": "EXPLORER LES FORMES ET LES GRANDEURS",
+      "intitule": "Comparer des masses",
+      "pageLivret": 8,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je sais utiliser une balance Roberval.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je sais utiliser les locutions « plus lourd que », « plus léger que », « de même masse que ».",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je sais verbaliser le résultat de l’égalité de deux masses.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "M19",
+      "domaine": "maths",
+      "famille": "EXPLORER LES FORMES ET LES GRANDEURS",
+      "intitule": "Se familiariser avec les motifs organisés",
+      "pageLivret": 9,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je reproduis un motif répétitif simple (recopie à l’identique).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je prolonge un motif répétitif (je continue la suite).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je reproduis un motif de tête (après mémorisation, sans modèle visible).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je repère et décris la règle d’un motif répétitif ou évolutif simple (je l’explique avec des mots).",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 5,
+          "libelle": "Je crée mon propre motif et je l’explique pour qu’un camarade puisse le reproduire.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    },
+    {
+      "code": "M20",
+      "domaine": "maths",
+      "famille": "EXPLORER LES FORMES ET LES GRANDEURS",
+      "intitule": "Résoudre des problèmes",
+      "pageLivret": 9,
+      "etapes": [
+        {
+          "numero": 1,
+          "libelle": "Je sais résoudre de petits problèmes: trouver combien il y en a en tout, combien il en reste ou combien il en manque.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 2,
+          "libelle": "Je sais trouver le total quand les objets sont répartis en groupes de même taille.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 3,
+          "libelle": "Je sais partager équitablement des objets entre plusieurs personnes.",
+          "aRelire": false,
+          "motif": null
+        },
+        {
+          "numero": 4,
+          "libelle": "Je sais trouver ma case d’arrivée sur une piste numérotée après avoir avancé ou reculé.",
+          "aRelire": false,
+          "motif": null
+        }
+      ],
+      "aRelire": false,
+      "motif": null
+    }
+  ]
+}

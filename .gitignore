@@ -1,0 +1,22 @@
+# --- Données identifiantes : à ne jamais versionner -------------------------
+# Le livret de français porte en première page le nom, l'adresse postale et le
+# téléphone de l'école ; l'emploi du temps source contient dans ses métadonnées
+# les noms complets de son autrice et du dernier éditeur. Ces documents ne sont
+# nécessaires qu'une fois, pour l'extraction du référentiel.
+docs/
+
+# Le travail d'Audrey : semaines saisies, emploi du temps, catalogue.
+# Sauvegardé par iCloud Drive, pas par git.
+data/semaines/
+data/catalogue-activites.json
+data/emploi-du-temps-*.json
+
+# --- Produits de génération -------------------------------------------------
+build/
+
+# --- Divers -----------------------------------------------------------------
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+__pycache__/

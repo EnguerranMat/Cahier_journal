@@ -1,0 +1,148 @@
+/* Interface locale du cahier-journal. Polices système : l'application doit
+   fonctionner sans réseau. Les couleurs de niveau sont celles de l'impression,
+   pour qu'Audrey retrouve les mêmes repères à l'écran et sur le papier. */
+
+:root{
+  --fond:#f4f4f2; --carte:#fff; --encre:#1c1a19; --encre-2:#5b5754; --encre-3:#8b8683;
+  --filet:#dedbd8; --filet-2:#eceae8;
+  --ms:#c9351b; --ms-fond:#fbe8e4;
+  --gs:#3f6f9e; --gs-fond:#e4eef7;
+  --mixte:#201e1d; --mixte-fond:#eeeceb;
+  --accent:#3f6f9e; --ok:#2f7050;
+  --r:3px;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --fond:#171615; --carte:#1f1e1d; --encre:#eae7e4; --encre-2:#a8a29e; --encre-3:#7d7773;
+    --filet:#332f2d; --filet-2:#262322;
+    --ms-fond:#3a1c15; --gs-fond:#15263a; --mixte-fond:#262322;
+    --ms:#e0806b; --gs:#87b3dc; --mixte:#c9c5c2; --accent:#87b3dc; --ok:#6fb391;
+  }
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--fond); color:var(--encre);
+  font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.btn{background:var(--carte);border:1px solid var(--filet);border-radius:var(--r);padding:5px 11px}
+.btn:hover{border-color:var(--encre-3)}
+.btn.primary{background:var(--encre);color:var(--fond);border-color:var(--encre)}
+.btn.ghost{background:none}
+.btn.mini{padding:2px 7px;font-size:12.5px;color:var(--encre-2)}
+
+/* ------------------------------------------------------------ barre */
+.barre{
+  position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;
+  align-items:center;gap:16px;padding:9px 18px;background:var(--carte);
+  border-bottom:1px solid var(--filet);
+}
+.barre-g,.barre-d{display:flex;align-items:center;gap:10px}
+.titre{font-weight:700;letter-spacing:-.01em}
+.titre span{color:var(--encre-3);font-weight:600}
+select{background:var(--carte);border:1px solid var(--filet);border-radius:var(--r);padding:5px 8px}
+.etat{font-size:12.5px;color:var(--encre-3);min-width:104px;text-align:right}
+.etat.ok{color:var(--ok)}
+
+/* ------------------------------------------------------------ entête */
+.entete{padding:14px 18px 10px;display:flex;flex-wrap:wrap;align-items:center;gap:10px 22px}
+.repere{font-size:19px;font-weight:600;letter-spacing:-.01em}
+.contexte{display:flex;align-items:center;gap:9px;flex:1 1 380px;min-width:280px}
+.contexte span{font-size:11px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--encre-3);white-space:nowrap}
+.contexte input{flex:1;background:var(--carte);border:1px solid var(--filet);border-radius:var(--r);padding:6px 10px}
+
+/* ------------------------------------------------------------ onglets */
+.onglets{display:flex;gap:2px;padding:0 18px;border-bottom:1px solid var(--filet)}
+.onglets button{
+  background:none;border:0;border-bottom:2px solid transparent;
+  padding:8px 14px 9px;color:var(--encre-2);font-weight:500;display:flex;gap:7px;align-items:baseline;
+}
+.onglets button[aria-current="true"]{color:var(--encre);border-bottom-color:var(--encre);font-weight:600}
+.onglets .cpt{font-size:11.5px;color:var(--encre-3);font-variant-numeric:tabular-nums}
+.onglets .cpt.plein{color:var(--ok)}
+
+/* ------------------------------------------------------------ journée */
+.jour{max-width:1080px;margin:0 auto;padding:16px 18px 80px;display:flex;flex-direction:column;gap:3px}
+.jour-actions{display:flex;gap:8px;align-items:center;margin-bottom:8px}
+.jour-actions .pousse{flex:1}
+
+.creneau{display:grid;grid-template-columns:74px 1fr;gap:12px;padding:7px 0;border-top:1px solid var(--filet-2)}
+.creneau.fige{opacity:.62}
+.heure{font-weight:600;font-variant-numeric:tabular-nums;padding-top:5px}
+.heure small{display:block;font-weight:400;color:var(--encre-3)}
+.lignes{display:flex;flex-direction:column;gap:5px;min-width:0}
+
+.ligne{
+  background:var(--carte);border:1px solid var(--filet);border-left:4px solid var(--bande);
+  border-radius:var(--r);padding:7px 10px;display:flex;flex-direction:column;gap:6px;
+}
+.ligne.fige{background:transparent;border-style:none none none solid;border-left-color:var(--encre-3);padding:2px 0 2px 10px}
+.ligne-t{display:flex;flex-wrap:wrap;align-items:center;gap:7px}
+.puce{
+  font-size:11px;font-weight:700;padding:1px 6px;border-radius:2px;
+  background:var(--teinte);color:var(--bande);white-space:nowrap;
+}
+.meta{font-size:12px;color:var(--encre-2)}
+.meta b{font-weight:600;color:var(--encre)}
+.ligne-t .pousse{flex:1}
+.fige .texte{font-size:13px;color:var(--encre-2)}
+
+.champ{
+  width:100%;background:transparent;border:0;border-bottom:1px dashed var(--filet);
+  padding:3px 0 4px;font-size:14.5px;font-weight:500;
+}
+.champ:focus{border-bottom-style:solid;border-bottom-color:var(--accent);outline:none}
+.champ::placeholder{color:var(--encre-3);font-weight:400}
+.champ.materiel{font-size:13px;font-weight:400}
+
+.comps{display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+.comp{
+  display:inline-flex;align-items:baseline;gap:6px;max-width:100%;
+  background:var(--filet-2);border-radius:2px;padding:2px 4px 2px 7px;font-size:12.5px;
+}
+.comp code{font-weight:700;font-family:ui-monospace,monospace;font-size:11.5px;color:var(--accent)}
+.comp .txt{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:52ch}
+.comp.libre code{color:var(--encre-3)}
+.comp button{background:none;border:0;color:var(--encre-3);padding:0 3px;line-height:1}
+.comp button:hover{color:var(--ms)}
+
+/* ------------------------------------------- autocomplétion d'activité */
+.suggestions{
+  position:absolute;z-index:30;background:var(--carte);border:1px solid var(--filet);
+  border-radius:var(--r);box-shadow:0 8px 24px rgba(0,0,0,.14);max-height:280px;overflow:auto;min-width:320px;
+}
+.suggestions button{
+  display:block;width:100%;text-align:left;background:none;border:0;
+  padding:7px 11px;border-bottom:1px solid var(--filet-2);
+}
+.suggestions button:hover,.suggestions button.actif{background:var(--filet-2)}
+.suggestions .s-t{font-weight:500}
+.suggestions .s-m{font-size:12px;color:var(--encre-3)}
+
+/* ------------------------------------------------------------ palette */
+.voile[hidden]{display:none}
+.voile{position:fixed;inset:0;z-index:40;background:rgba(20,18,17,.42);display:flex;align-items:flex-start;justify-content:center;padding:8vh 16px}
+.palette{background:var(--carte);border-radius:6px;width:min(720px,100%);max-height:78vh;display:flex;flex-direction:column;box-shadow:0 18px 50px rgba(0,0,0,.3)}
+.palette-t{display:flex;justify-content:space-between;align-items:center;padding:13px 16px;border-bottom:1px solid var(--filet)}
+#recherche{margin:12px 16px;padding:9px 12px;border:1px solid var(--filet);border-radius:var(--r);background:var(--fond)}
+.resultats{flex:1;overflow:auto;padding:0 8px}
+.resultats button{display:block;width:100%;text-align:left;background:none;border:0;padding:7px 10px;border-radius:var(--r)}
+.resultats button:hover,.resultats button.actif{background:var(--filet-2)}
+.resultats .r-c{font-family:ui-monospace,monospace;font-size:11.5px;font-weight:700;color:var(--accent)}
+.resultats .r-i{font-size:11.5px;color:var(--encre-3);margin-left:8px}
+.resultats .r-l{display:block;margin-top:1px}
+.resultats .vide{padding:22px 12px;color:var(--encre-3);text-align:center}
+.palette-p{border-top:1px solid var(--filet);padding:12px 16px}
+.palette-p label{display:block;font-size:11px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--encre-3);margin-bottom:7px}
+.palette-p small{text-transform:none;letter-spacing:0;font-weight:400}
+.libre{display:flex;gap:8px}
+.libre input{flex:1;padding:7px 10px;border:1px solid var(--filet);border-radius:var(--r);background:var(--fond)}
+
+@media (max-width:720px){
+  .creneau{grid-template-columns:60px 1fr;gap:8px}
+  .jour{padding:12px}
+}
