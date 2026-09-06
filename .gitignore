@@ -5,11 +5,12 @@
 # nécessaires qu'une fois, pour l'extraction du référentiel.
 docs/
 
-# Le travail d'Audrey : semaines saisies, emploi du temps, catalogue.
+# Le travail d'Audrey : semaines saisies et catalogue d'activités.
 # Sauvegardé par iCloud Drive, pas par git.
+# L'emploi du temps, lui, reste versionné : c'est la configuration de
+# référence, sans laquelle l'application ne peut pas démarrer après un clone.
 data/semaines/
 data/catalogue-activites.json
-data/emploi-du-temps-*.json
 
 # --- Produits de génération -------------------------------------------------
 build/

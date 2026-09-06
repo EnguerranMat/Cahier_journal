@@ -1,0 +1,1207 @@
+{
+  "id": "edt-2026-2027-P1",
+  "anneeScolaire": "2026-2027",
+  "periode": 1,
+  "libelle": "Emploi du temps MS / GS — Période 1",
+  "sources": [
+    "EDT 2026 P1 V3.docx",
+    "Cahier-journal MS-GS - Semaine type.docx"
+  ],
+  "corrections": [
+    "Jeudi et vendredi : regroupement 10h00–10h15 puis récréation 10h15–10h45 (l'EDT d'origine faisait se chevaucher regroupement 10h00–10h30 et récréation 10h15–10h45). Corrigé par Audrey."
+  ],
+  "referentiels": {
+    "niveaux": [
+      "MS",
+      "GS",
+      "MS + GS"
+    ],
+    "priseEnCharge": [
+      "Audrey",
+      "Delphine",
+      "Audrey + Delphine",
+      "Autonomie"
+    ],
+    "organisations": [
+      "Classe entière",
+      "Demi-groupe",
+      "Petit groupe",
+      "Individuel",
+      "Périscolaire"
+    ]
+  },
+  "rotations": {
+    "ateliersGS": {
+      "libelle": "Ateliers GS de 14h15 — les trois groupes tournent",
+      "groupes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "cycle": [
+        "lundi",
+        "mardi",
+        "jeudi"
+      ],
+      "note": "Confirmé par Audrey : chaque groupe fait chacun des trois ateliers une fois dans la semaine."
+    },
+    "lectureBCD": {
+      "libelle": "Lecture compréhension et BCD de 15h40 — les deux demi-groupes permutent",
+      "groupes": [
+        "1",
+        "2"
+      ],
+      "cycle": [
+        "lundi",
+        "mardi"
+      ]
+    },
+    "mathsVendrediGS": {
+      "libelle": "Atelier maths GS du vendredi — demi-groupe, une semaine sur deux",
+      "groupes": [
+        "1",
+        "2"
+      ],
+      "cycle": "semaines",
+      "note": "L'atelier ne prend qu'un demi-groupe : les deux moitiés alternent d'une semaine à l'autre. Le groupe est calculé d'après la semaine, et reste modifiable à la main."
+    },
+    "ateliersMercredi": {
+      "libelle": "Trois ateliers du mercredi — rotation dans la matinée",
+      "groupes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "cycle": [
+        "mercredi-1",
+        "mercredi-2",
+        "mercredi-3"
+      ],
+      "note": "Rotation interne à la matinée : les enfants tournent entre 9h30 et la suite de 10h45, pas d'un jour à l'autre."
+    }
+  },
+  "jours": [
+    {
+      "jour": "lundi",
+      "creneaux": [
+        {
+          "debut": "08:50",
+          "fin": "09:10",
+          "type": "fixe",
+          "niveau": "MS + GS",
+          "domaine": "Accueil",
+          "intitule": "Affaires, étiquette-prénom, rituel mathématiques, métiers (date, présents / absents, météo). MS en autonomie dans les espaces ; GS s'inscrivent au plan de travail.",
+          "priseEnCharge": "Audrey + Delphine",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "09:10",
+          "fin": "09:30",
+          "type": "fixe",
+          "niveau": "MS + GS",
+          "domaine": "Accueil encadré",
+          "intitule": "Remédiation pour les élèves fragiles, observation, évaluation. Espaces pour les autres.",
+          "priseEnCharge": "Audrey",
+          "organisation": "Petit groupe",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "09:30",
+          "fin": "10:00",
+          "type": "ateliers",
+          "lignes": [
+            {
+              "niveau": "MS",
+              "domaine": "Langage oral ou écrit",
+              "priseEnCharge": "Audrey",
+              "organisation": "Petit groupe",
+              "saisie": "complete"
+            },
+            {
+              "niveau": "MS",
+              "domaine": "Mathématiques",
+              "priseEnCharge": "Delphine",
+              "organisation": "Petit groupe",
+              "saisie": "complete"
+            },
+            {
+              "niveau": "GS",
+              "domaine": "Plan de travail",
+              "priseEnCharge": "Autonomie",
+              "organisation": "Individuel",
+              "saisie": "competence",
+              "intitule": "Plan de travail n° …"
+            }
+          ]
+        },
+        {
+          "debut": "10:00",
+          "fin": "10:30",
+          "type": "ateliers",
+          "lignes": [
+            {
+              "niveau": "MS",
+              "domaine": "Graphisme",
+              "priseEnCharge": "Delphine",
+              "organisation": "Petit groupe",
+              "saisie": "complete"
+            },
+            {
+              "niveau": "GS",
+              "domaine": "Phonologie · principe alphabétique",
+              "priseEnCharge": "Audrey",
+              "organisation": "Demi-groupe",
+              "saisie": "complete",
+              "intitule": "Activités ritualisées"
+            }
+          ]
+        },
+        {
+          "debut": "10:30",
+          "fin": "10:45",
+          "type": "seance",
+          "lignes": [
+            {
+              "niveau": "MS + GS",
+              "domaine": "Regroupement",
+              "priseEnCharge": "Audrey",
+              "organisation": "Classe entière",
+              "saisie": "competence",
+              "intitule": "Chant, langue, réussites du jour."
+            }
+          ]
+        },
+        {
+          "debut": "10:45",
+          "fin": "11:15",
+          "type": "pause",
+          "niveau": "MS + GS",
+          "domaine": "Récréation",
+          "intitule": "Cour, surveillance partagée.",
+          "priseEnCharge": "Audrey + Delphine",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "11:15",
+          "fin": "12:00",
+          "type": "seance",
+          "lignes": [
+            {
+              "niveau": "MS + GS",
+              "domaine": "Motricité",
+              "priseEnCharge": "Audrey",
+              "organisation": "Classe entière",
+              "saisie": "complete"
+            }
+          ]
+        },
+        {
+          "debut": "12:00",
+          "fin": "13:50",
+          "type": "pause",
+          "niveau": "MS + GS",
+          "domaine": "Cantine · pause méridienne",
+          "intitule": "Repas 12h–13h. Sieste MS puis lever échelonné ; activité périscolaire GS.",
+          "priseEnCharge": "Delphine",
+          "organisation": "Périscolaire",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "13:50",
+          "fin": "14:00",
+          "type": "fixe",
+          "niveau": "GS",
+          "domaine": "Accueil calme",
+          "intitule": "Lecture offerte, album de la période.",
+          "priseEnCharge": "Audrey",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "14:00",
+          "fin": "14:15",
+          "type": "seance",
+          "lignes": [
+            {
+              "niveau": "GS",
+              "domaine": "Mathématiques ou langage",
+              "priseEnCharge": "Audrey",
+              "organisation": "Classe entière",
+              "saisie": "complete",
+              "intitule": "Activités ritualisées"
+            }
+          ]
+        },
+        {
+          "debut": "14:15",
+          "fin": "14:45",
+          "type": "ateliers",
+          "lignes": [
+            {
+              "niveau": "GS",
+              "domaine": "Écriture",
+              "priseEnCharge": "Audrey",
+              "organisation": "Petit groupe",
+              "saisie": "complete",
+              "intitule": "Atelier 1 — J'écris (CLEO) ou préparation à l'écriture",
+              "rotation": "ateliersGS",
+              "atelier": 1
+            },
+            {
+              "niveau": "GS",
+              "domaine": "Mathématiques",
+              "priseEnCharge": "Delphine",
+              "organisation": "Petit groupe",
+              "saisie": "complete",
+              "intitule": "Atelier 2 — jeux de logique ou représentation dans l'espace",
+              "rotation": "ateliersGS",
+              "atelier": 2
+            },
+            {
+              "niveau": "GS",
+              "domaine": "Atelier autonome",
+              "priseEnCharge": "Autonomie",
+              "organisation": "Petit groupe",
+              "saisie": "complete",
+              "intitule": "Atelier 3 — atelier autonome",
+              "rotation": "ateliersGS",
+              "atelier": 3
+            },
+            {
+              "niveau": "MS",
+              "domaine": "Motricité fine",
+              "priseEnCharge": "Autonomie",
+              "organisation": "Individuel",
+              "saisie": "complete",
+              "intitule": "Ateliers autonomes"
+            }
+          ]
+        },
+        {
+          "debut": "14:45",
+          "fin": "15:15",
+          "type": "seance",
+          "lignes": [
+            {
+              "niveau": "MS + GS",
+              "domaine": "Formes et grandeurs",
+              "priseEnCharge": "Delphine",
+              "organisation": "Petit groupe",
+              "saisie": "competence",
+              "intitule": "Ateliers échelonnés : brevets (puzzle, construction…)"
+            }
+          ]
+        },
+        {
+          "debut": "15:15",
+          "fin": "15:35",
+          "type": "pause",
+          "niveau": "MS + GS",
+          "domaine": "Récréation",
+          "intitule": "Cour, surveillance partagée.",
+          "priseEnCharge": "Audrey + Delphine",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "15:40",
+          "fin": "16:10",
+          "type": "ateliers",
+          "lignes": [
+            {
+              "niveau": "MS + GS",
+              "domaine": "Compréhension",
+              "priseEnCharge": "Audrey",
+              "organisation": "Demi-groupe",
+              "saisie": "complete",
+              "intitule": "Lecture compréhension",
+              "rotation": "lectureBCD",
+              "atelier": 1
+            },
+            {
+              "niveau": "MS + GS",
+              "domaine": "Écrits",
+              "priseEnCharge": "Delphine",
+              "organisation": "Demi-groupe",
+              "saisie": "complete",
+              "intitule": "BCD",
+              "rotation": "lectureBCD",
+              "atelier": 2
+            }
+          ]
+        },
+        {
+          "debut": "16:10",
+          "fin": "16:15",
+          "type": "fixe",
+          "niveau": "MS + GS",
+          "domaine": "Bilan",
+          "intitule": "De la journée, préparation à la sortie.",
+          "priseEnCharge": "Audrey",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        }
+      ]
+    },
+    {
+      "jour": "mardi",
+      "creneaux": [
+        {
+          "debut": "08:50",
+          "fin": "09:10",
+          "type": "fixe",
+          "niveau": "MS + GS",
+          "domaine": "Accueil",
+          "intitule": "Affaires, étiquette-prénom, rituel mathématiques, métiers (date, présents / absents, météo). MS en autonomie dans les espaces ; GS s'inscrivent au plan de travail.",
+          "priseEnCharge": "Audrey + Delphine",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "09:10",
+          "fin": "09:30",
+          "type": "fixe",
+          "niveau": "MS + GS",
+          "domaine": "Accueil encadré",
+          "intitule": "Remédiation pour les élèves fragiles, observation, évaluation. Espaces pour les autres.",
+          "priseEnCharge": "Audrey",
+          "organisation": "Petit groupe",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "09:30",
+          "fin": "10:00",
+          "type": "ateliers",
+          "lignes": [
+            {
+              "niveau": "MS",
+              "domaine": "Langage oral ou écrit",
+              "priseEnCharge": "Audrey",
+              "organisation": "Petit groupe",
+              "saisie": "complete"
+            },
+            {
+              "niveau": "MS",
+              "domaine": "Mathématiques",
+              "priseEnCharge": "Delphine",
+              "organisation": "Petit groupe",
+              "saisie": "complete"
+            },
+            {
+              "niveau": "GS",
+              "domaine": "Plan de travail",
+              "priseEnCharge": "Autonomie",
+              "organisation": "Individuel",
+              "saisie": "competence",
+              "intitule": "Plan de travail n° …"
+            }
+          ]
+        },
+        {
+          "debut": "10:00",
+          "fin": "10:30",
+          "type": "ateliers",
+          "lignes": [
+            {
+              "niveau": "MS",
+              "domaine": "Graphisme",
+              "priseEnCharge": "Delphine",
+              "organisation": "Petit groupe",
+              "saisie": "complete"
+            },
+            {
+              "niveau": "GS",
+              "domaine": "Phonologie · principe alphabétique",
+              "priseEnCharge": "Audrey",
+              "organisation": "Demi-groupe",
+              "saisie": "complete",
+              "intitule": "Activités ritualisées"
+            }
+          ]
+        },
+        {
+          "debut": "10:30",
+          "fin": "10:45",
+          "type": "seance",
+          "lignes": [
+            {
+              "niveau": "MS + GS",
+              "domaine": "Regroupement",
+              "priseEnCharge": "Audrey",
+              "organisation": "Classe entière",
+              "saisie": "competence",
+              "intitule": "Chant, langue, réussites du jour."
+            }
+          ]
+        },
+        {
+          "debut": "10:45",
+          "fin": "11:15",
+          "type": "pause",
+          "niveau": "MS + GS",
+          "domaine": "Récréation",
+          "intitule": "Cour, surveillance partagée.",
+          "priseEnCharge": "Audrey + Delphine",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "11:15",
+          "fin": "12:00",
+          "type": "seance",
+          "lignes": [
+            {
+              "niveau": "MS + GS",
+              "domaine": "Motricité",
+              "priseEnCharge": "Audrey",
+              "organisation": "Classe entière",
+              "saisie": "complete"
+            }
+          ]
+        },
+        {
+          "debut": "12:00",
+          "fin": "13:50",
+          "type": "pause",
+          "niveau": "MS + GS",
+          "domaine": "Cantine · pause méridienne",
+          "intitule": "Repas 12h–13h. Sieste MS puis lever échelonné ; activité périscolaire GS.",
+          "priseEnCharge": "Delphine",
+          "organisation": "Périscolaire",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "13:50",
+          "fin": "14:00",
+          "type": "fixe",
+          "niveau": "GS",
+          "domaine": "Accueil calme",
+          "intitule": "Lecture offerte, album de la période.",
+          "priseEnCharge": "Audrey",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "14:00",
+          "fin": "14:15",
+          "type": "seance",
+          "lignes": [
+            {
+              "niveau": "GS",
+              "domaine": "Mathématiques ou langage",
+              "priseEnCharge": "Audrey",
+              "organisation": "Classe entière",
+              "saisie": "complete",
+              "intitule": "Activités ritualisées"
+            }
+          ]
+        },
+        {
+          "debut": "14:15",
+          "fin": "14:45",
+          "type": "ateliers",
+          "lignes": [
+            {
+              "niveau": "GS",
+              "domaine": "Écriture",
+              "priseEnCharge": "Audrey",
+              "organisation": "Petit groupe",
+              "saisie": "complete",
+              "intitule": "Atelier 1 — J'écris (CLEO) ou préparation à l'écriture",
+              "rotation": "ateliersGS",
+              "atelier": 1
+            },
+            {
+              "niveau": "GS",
+              "domaine": "Mathématiques",
+              "priseEnCharge": "Delphine",
+              "organisation": "Petit groupe",
+              "saisie": "complete",
+              "intitule": "Atelier 2 — jeux de logique ou représentation dans l'espace",
+              "rotation": "ateliersGS",
+              "atelier": 2
+            },
+            {
+              "niveau": "GS",
+              "domaine": "Atelier autonome",
+              "priseEnCharge": "Autonomie",
+              "organisation": "Petit groupe",
+              "saisie": "complete",
+              "intitule": "Atelier 3 — atelier autonome",
+              "rotation": "ateliersGS",
+              "atelier": 3
+            },
+            {
+              "niveau": "MS",
+              "domaine": "Motricité fine",
+              "priseEnCharge": "Autonomie",
+              "organisation": "Individuel",
+              "saisie": "complete",
+              "intitule": "Ateliers autonomes"
+            }
+          ]
+        },
+        {
+          "debut": "14:45",
+          "fin": "15:15",
+          "type": "seance",
+          "lignes": [
+            {
+              "niveau": "MS + GS",
+              "domaine": "Formes et grandeurs",
+              "priseEnCharge": "Delphine",
+              "organisation": "Petit groupe",
+              "saisie": "competence",
+              "intitule": "Ateliers échelonnés : brevets (puzzle, construction…)"
+            }
+          ]
+        },
+        {
+          "debut": "15:15",
+          "fin": "15:35",
+          "type": "pause",
+          "niveau": "MS + GS",
+          "domaine": "Récréation",
+          "intitule": "Cour, surveillance partagée.",
+          "priseEnCharge": "Audrey + Delphine",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "15:40",
+          "fin": "16:10",
+          "type": "ateliers",
+          "lignes": [
+            {
+              "niveau": "MS + GS",
+              "domaine": "Compréhension",
+              "priseEnCharge": "Audrey",
+              "organisation": "Demi-groupe",
+              "saisie": "complete",
+              "intitule": "Lecture compréhension",
+              "rotation": "lectureBCD",
+              "atelier": 1
+            },
+            {
+              "niveau": "MS + GS",
+              "domaine": "Écrits",
+              "priseEnCharge": "Delphine",
+              "organisation": "Demi-groupe",
+              "saisie": "complete",
+              "intitule": "BCD",
+              "rotation": "lectureBCD",
+              "atelier": 2
+            }
+          ]
+        },
+        {
+          "debut": "16:10",
+          "fin": "16:15",
+          "type": "fixe",
+          "niveau": "MS + GS",
+          "domaine": "Bilan",
+          "intitule": "De la journée, préparation à la sortie.",
+          "priseEnCharge": "Audrey",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        }
+      ]
+    },
+    {
+      "jour": "mercredi",
+      "creneaux": [
+        {
+          "debut": "08:50",
+          "fin": "09:15",
+          "type": "fixe",
+          "niveau": "MS + GS",
+          "domaine": "Accueil",
+          "intitule": "Affaires, étiquette-prénom, rituel mathématiques, métiers (date, présents / absents, météo). Espaces en autonomie.",
+          "priseEnCharge": "Audrey + Delphine",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "09:15",
+          "fin": "09:30",
+          "type": "fixe",
+          "niveau": "MS + GS",
+          "domaine": "Regroupement",
+          "intitule": "Métiers, puis explication des trois ateliers tournants.",
+          "priseEnCharge": "Audrey",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "09:30",
+          "fin": "10:00",
+          "type": "ateliers",
+          "lignes": [
+            {
+              "niveau": "MS + GS",
+              "domaine": "Langage écrit",
+              "priseEnCharge": "Audrey",
+              "organisation": "Petit groupe",
+              "saisie": "complete",
+              "intitule": "Atelier 1",
+              "rotation": "ateliersMercredi",
+              "atelier": 1
+            },
+            {
+              "niveau": "MS + GS",
+              "domaine": "Formes et grandeurs",
+              "priseEnCharge": "Delphine",
+              "organisation": "Petit groupe",
+              "saisie": "complete",
+              "intitule": "Atelier 2",
+              "rotation": "ateliersMercredi",
+              "atelier": 2
+            },
+            {
+              "niveau": "MS + GS",
+              "domaine": "Atelier autonome",
+              "priseEnCharge": "Autonomie",
+              "organisation": "Petit groupe",
+              "saisie": "complete",
+              "intitule": "Atelier 3 — atelier autonome",
+              "rotation": "ateliersMercredi",
+              "atelier": 3
+            }
+          ]
+        },
+        {
+          "debut": "10:00",
+          "fin": "10:15",
+          "type": "seance",
+          "lignes": [
+            {
+              "niveau": "MS + GS",
+              "domaine": "Empathie · CPS",
+              "priseEnCharge": "Audrey",
+              "organisation": "Classe entière",
+              "saisie": "complete",
+              "intitule": "Séance d'empathie en appui sur les autres disciplines"
+            }
+          ]
+        },
+        {
+          "debut": "10:15",
+          "fin": "10:45",
+          "type": "pause",
+          "niveau": "MS + GS",
+          "domaine": "Récréation",
+          "intitule": "Cour, surveillance partagée.",
+          "priseEnCharge": "Audrey + Delphine",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "10:45",
+          "fin": "11:45",
+          "type": "fixe",
+          "niveau": "MS + GS",
+          "domaine": "Suite des ateliers",
+          "intitule": "Les trois ateliers de 9h30 : les enfants tournent.",
+          "priseEnCharge": "Audrey · Delphine · autonomie",
+          "organisation": "Petit groupe",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "11:45",
+          "fin": "12:00",
+          "type": "fixe",
+          "niveau": "MS + GS",
+          "domaine": "Regroupement",
+          "intitule": "Bilan de la matinée, préparation à la sortie.",
+          "priseEnCharge": "Audrey",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        }
+      ],
+      "demiJournee": "matin"
+    },
+    {
+      "jour": "jeudi",
+      "creneaux": [
+        {
+          "debut": "08:50",
+          "fin": "09:10",
+          "type": "fixe",
+          "niveau": "MS + GS",
+          "domaine": "Accueil",
+          "intitule": "Affaires, étiquette-prénom, rituel mathématiques, métiers (date, présents / absents, météo). MS en autonomie dans les espaces ; GS s'inscrivent au plan de travail.",
+          "priseEnCharge": "Audrey + Delphine",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "09:10",
+          "fin": "09:30",
+          "type": "fixe",
+          "niveau": "MS + GS",
+          "domaine": "Accueil encadré",
+          "intitule": "Remédiation pour les élèves fragiles, observation, évaluation. Espaces pour les autres.",
+          "priseEnCharge": "Audrey",
+          "organisation": "Petit groupe",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "09:30",
+          "fin": "10:00",
+          "type": "ateliers",
+          "lignes": [
+            {
+              "niveau": "MS",
+              "domaine": "Mathématiques",
+              "priseEnCharge": "Audrey",
+              "organisation": "Petit groupe",
+              "saisie": "complete"
+            },
+            {
+              "niveau": "MS",
+              "domaine": "Principe alphabétique ou préparation à l'écriture",
+              "priseEnCharge": "Delphine",
+              "organisation": "Petit groupe",
+              "saisie": "complete"
+            },
+            {
+              "niveau": "GS",
+              "domaine": "Plan de travail",
+              "priseEnCharge": "Autonomie",
+              "organisation": "Individuel",
+              "saisie": "competence",
+              "intitule": "Plan de travail n° …"
+            }
+          ]
+        },
+        {
+          "debut": "10:00",
+          "fin": "10:15",
+          "type": "seance",
+          "lignes": [
+            {
+              "niveau": "MS + GS",
+              "domaine": "Regroupement",
+              "priseEnCharge": "Audrey",
+              "organisation": "Classe entière",
+              "saisie": "competence",
+              "intitule": "Chant, langue, réussites du jour."
+            }
+          ]
+        },
+        {
+          "debut": "10:15",
+          "fin": "10:45",
+          "type": "pause",
+          "niveau": "MS + GS",
+          "domaine": "Récréation",
+          "intitule": "Cour, surveillance partagée.",
+          "priseEnCharge": "Audrey + Delphine",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "10:45",
+          "fin": "11:15",
+          "type": "ateliers",
+          "lignes": [
+            {
+              "niveau": "MS",
+              "domaine": "Phonologie · maths · principe alphabétique",
+              "priseEnCharge": "Audrey",
+              "organisation": "Demi-groupe",
+              "saisie": "complete",
+              "intitule": "Rituels"
+            },
+            {
+              "niveau": "GS",
+              "domaine": "Lettres, maths ou graphisme",
+              "priseEnCharge": "Delphine",
+              "organisation": "Petit groupe",
+              "saisie": "complete"
+            }
+          ]
+        },
+        {
+          "debut": "11:15",
+          "fin": "12:00",
+          "type": "seance",
+          "lignes": [
+            {
+              "niveau": "MS + GS",
+              "domaine": "Motricité",
+              "priseEnCharge": "Audrey",
+              "organisation": "Classe entière",
+              "saisie": "complete"
+            }
+          ]
+        },
+        {
+          "debut": "12:00",
+          "fin": "13:50",
+          "type": "pause",
+          "niveau": "MS + GS",
+          "domaine": "Cantine · pause méridienne",
+          "intitule": "Repas 12h–13h. Sieste MS puis lever échelonné ; activité périscolaire GS.",
+          "priseEnCharge": "Delphine",
+          "organisation": "Périscolaire",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "13:50",
+          "fin": "14:00",
+          "type": "fixe",
+          "niveau": "GS",
+          "domaine": "Accueil calme",
+          "intitule": "Lecture offerte, album de la période.",
+          "priseEnCharge": "Audrey",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "14:00",
+          "fin": "14:15",
+          "type": "seance",
+          "lignes": [
+            {
+              "niveau": "GS",
+              "domaine": "Mathématiques ou langage",
+              "priseEnCharge": "Audrey",
+              "organisation": "Classe entière",
+              "saisie": "complete",
+              "intitule": "Activités ritualisées"
+            }
+          ]
+        },
+        {
+          "debut": "14:15",
+          "fin": "14:45",
+          "type": "ateliers",
+          "lignes": [
+            {
+              "niveau": "GS",
+              "domaine": "Écriture",
+              "priseEnCharge": "Audrey",
+              "organisation": "Petit groupe",
+              "saisie": "complete",
+              "intitule": "Atelier 1 — J'écris (CLEO) ou préparation à l'écriture",
+              "rotation": "ateliersGS",
+              "atelier": 1
+            },
+            {
+              "niveau": "GS",
+              "domaine": "Mathématiques",
+              "priseEnCharge": "Delphine",
+              "organisation": "Petit groupe",
+              "saisie": "complete",
+              "intitule": "Atelier 2 — jeux de logique ou représentation dans l'espace",
+              "rotation": "ateliersGS",
+              "atelier": 2
+            },
+            {
+              "niveau": "GS",
+              "domaine": "Atelier autonome",
+              "priseEnCharge": "Autonomie",
+              "organisation": "Petit groupe",
+              "saisie": "complete",
+              "intitule": "Atelier 3 — atelier autonome",
+              "rotation": "ateliersGS",
+              "atelier": 3
+            },
+            {
+              "niveau": "MS",
+              "domaine": "Motricité fine",
+              "priseEnCharge": "Autonomie",
+              "organisation": "Individuel",
+              "saisie": "complete",
+              "intitule": "Ateliers autonomes"
+            }
+          ]
+        },
+        {
+          "debut": "14:45",
+          "fin": "15:15",
+          "type": "seance",
+          "lignes": [
+            {
+              "niveau": "MS + GS",
+              "domaine": "Formes et grandeurs",
+              "priseEnCharge": "Delphine",
+              "organisation": "Petit groupe",
+              "saisie": "competence",
+              "intitule": "Ateliers échelonnés : brevets (puzzle, construction…)"
+            }
+          ]
+        },
+        {
+          "debut": "15:15",
+          "fin": "15:35",
+          "type": "pause",
+          "niveau": "MS + GS",
+          "domaine": "Récréation",
+          "intitule": "Cour, surveillance partagée.",
+          "priseEnCharge": "Audrey + Delphine",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "15:40",
+          "fin": "16:10",
+          "type": "seance",
+          "lignes": [
+            {
+              "niveau": "MS + GS",
+              "domaine": "Éducation musicale · diversité linguistique",
+              "priseEnCharge": "Audrey",
+              "organisation": "Classe entière",
+              "saisie": "complete"
+            }
+          ]
+        },
+        {
+          "debut": "16:10",
+          "fin": "16:15",
+          "type": "fixe",
+          "niveau": "MS + GS",
+          "domaine": "Bilan",
+          "intitule": "De la journée, préparation à la sortie.",
+          "priseEnCharge": "Audrey",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        }
+      ]
+    },
+    {
+      "jour": "vendredi",
+      "creneaux": [
+        {
+          "debut": "08:50",
+          "fin": "09:10",
+          "type": "fixe",
+          "niveau": "MS + GS",
+          "domaine": "Accueil",
+          "intitule": "Affaires, étiquette-prénom, rituel mathématiques, métiers (date, présents / absents, météo). MS en autonomie dans les espaces ; GS s'inscrivent au plan de travail.",
+          "priseEnCharge": "Audrey + Delphine",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "09:10",
+          "fin": "09:30",
+          "type": "fixe",
+          "niveau": "MS + GS",
+          "domaine": "Accueil encadré",
+          "intitule": "Remédiation pour les élèves fragiles, observation, évaluation. Espaces pour les autres.",
+          "priseEnCharge": "Audrey",
+          "organisation": "Petit groupe",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "09:30",
+          "fin": "10:00",
+          "type": "ateliers",
+          "lignes": [
+            {
+              "niveau": "MS",
+              "domaine": "Mathématiques",
+              "priseEnCharge": "Audrey",
+              "organisation": "Petit groupe",
+              "saisie": "complete"
+            },
+            {
+              "niveau": "MS",
+              "domaine": "Principe alphabétique ou préparation à l'écriture",
+              "priseEnCharge": "Delphine",
+              "organisation": "Petit groupe",
+              "saisie": "complete"
+            },
+            {
+              "niveau": "GS",
+              "domaine": "Plan de travail",
+              "priseEnCharge": "Autonomie",
+              "organisation": "Individuel",
+              "saisie": "competence",
+              "intitule": "Plan de travail n° …"
+            }
+          ]
+        },
+        {
+          "debut": "10:00",
+          "fin": "10:15",
+          "type": "seance",
+          "lignes": [
+            {
+              "niveau": "MS + GS",
+              "domaine": "Regroupement",
+              "priseEnCharge": "Audrey",
+              "organisation": "Classe entière",
+              "saisie": "competence",
+              "intitule": "Chant, langue, réussites du jour."
+            }
+          ]
+        },
+        {
+          "debut": "10:15",
+          "fin": "10:45",
+          "type": "pause",
+          "niveau": "MS + GS",
+          "domaine": "Récréation",
+          "intitule": "Cour, surveillance partagée.",
+          "priseEnCharge": "Audrey + Delphine",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "10:45",
+          "fin": "11:15",
+          "type": "ateliers",
+          "lignes": [
+            {
+              "niveau": "MS",
+              "domaine": "Phonologie · maths · principe alphabétique",
+              "priseEnCharge": "Audrey",
+              "organisation": "Demi-groupe",
+              "saisie": "complete",
+              "intitule": "Rituels"
+            },
+            {
+              "niveau": "GS",
+              "domaine": "Lettres, maths ou graphisme",
+              "priseEnCharge": "Delphine",
+              "organisation": "Petit groupe",
+              "saisie": "complete"
+            }
+          ]
+        },
+        {
+          "debut": "11:15",
+          "fin": "12:00",
+          "type": "seance",
+          "lignes": [
+            {
+              "niveau": "MS + GS",
+              "domaine": "Motricité",
+              "priseEnCharge": "Audrey",
+              "organisation": "Classe entière",
+              "saisie": "complete"
+            }
+          ]
+        },
+        {
+          "debut": "12:00",
+          "fin": "13:50",
+          "type": "pause",
+          "niveau": "MS + GS",
+          "domaine": "Cantine · pause méridienne",
+          "intitule": "Repas 12h–13h. Sieste MS puis lever échelonné ; activité périscolaire GS.",
+          "priseEnCharge": "Delphine",
+          "organisation": "Périscolaire",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "13:50",
+          "fin": "14:00",
+          "type": "fixe",
+          "niveau": "GS",
+          "domaine": "Accueil calme",
+          "intitule": "Lecture offerte, album de la période.",
+          "priseEnCharge": "Audrey",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "14:00",
+          "fin": "14:15",
+          "type": "seance",
+          "lignes": [
+            {
+              "niveau": "GS",
+              "domaine": "Mathématiques ou langage",
+              "priseEnCharge": "Audrey",
+              "organisation": "Classe entière",
+              "saisie": "complete",
+              "intitule": "Activités ritualisées"
+            }
+          ]
+        },
+        {
+          "debut": "14:15",
+          "fin": "14:45",
+          "type": "ateliers",
+          "lignes": [
+            {
+              "niveau": "GS",
+              "domaine": "Mathématiques",
+              "priseEnCharge": "Audrey",
+              "organisation": "Demi-groupe",
+              "saisie": "complete",
+              "rotation": "mathsVendrediGS",
+              "atelier": 1
+            },
+            {
+              "niveau": "MS + GS",
+              "domaine": "Jeux de société · motricité fine",
+              "priseEnCharge": "Delphine",
+              "organisation": "Petit groupe",
+              "saisie": "complete"
+            }
+          ]
+        },
+        {
+          "debut": "14:45",
+          "fin": "15:15",
+          "type": "seance",
+          "lignes": [
+            {
+              "niveau": "MS + GS",
+              "domaine": "Formes et grandeurs",
+              "priseEnCharge": "Delphine",
+              "organisation": "Petit groupe",
+              "saisie": "competence",
+              "intitule": "Ateliers échelonnés : brevets (puzzle, construction…)"
+            }
+          ]
+        },
+        {
+          "debut": "15:15",
+          "fin": "15:35",
+          "type": "pause",
+          "niveau": "MS + GS",
+          "domaine": "Récréation",
+          "intitule": "Cour, surveillance partagée.",
+          "priseEnCharge": "Audrey + Delphine",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        },
+        {
+          "debut": "15:40",
+          "fin": "16:10",
+          "type": "seance",
+          "lignes": [
+            {
+              "niveau": "MS + GS",
+              "domaine": "Bilan de semaine",
+              "priseEnCharge": "Audrey",
+              "organisation": "Classe entière",
+              "saisie": "competence",
+              "intitule": "Bilan de la semaine puis lecture offerte"
+            }
+          ]
+        },
+        {
+          "debut": "16:10",
+          "fin": "16:15",
+          "type": "fixe",
+          "niveau": "MS + GS",
+          "domaine": "Bilan",
+          "intitule": "De la journée, préparation à la sortie.",
+          "priseEnCharge": "Audrey",
+          "organisation": "Classe entière",
+          "saisie": "aucune"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Les scripts lancés sur macOS doivent garder des fins de ligne Unix, même
+# lorsqu'ils sont édités depuis Windows : un CR en fin de shebang rend le
+# fichier inexécutable ("/bin/bash^M: bad interpreter").
+*.command  text eol=lf
+*.sh       text eol=lf
+*.mjs      text eol=lf
+*.js       text eol=lf
+*.py       text eol=lf
+*.json     text eol=lf

@@ -20,14 +20,29 @@ restent, et les PDF déjà imprimés aussi.
 1. Installer **Node.js** — version LTS, sur <https://nodejs.org>. Un installeur
    signé par Apple, double-clic, deux minutes. À faire une fois par machine.
 2. Placer le dossier du projet dans iCloud Drive.
-3. Double-cliquer sur `demarrer.command`.
+3. **Autoriser le lanceur à s'exécuter.** À faire une seule fois, par machine.
+   Ouvrir le Terminal (`applications > utilitaires > Terminal`), taper
+   `chmod +x ` — avec l'espace final — puis **faire glisser le fichier
+   `demarrer.command` depuis le Finder dans la fenêtre du Terminal** : le
+   chemin s'écrit tout seul. Valider avec Entrée. Aucun message ne s'affiche
+   si tout va bien.
+4. Double-cliquer sur `demarrer.command`.
 
 Le navigateur s'ouvre sur l'application. La fenêtre du terminal doit rester
 ouverte pendant l'utilisation.
 
+L'étape 3 est nécessaire parce que le droit d'exécution ne survit ni à une
+copie depuis Windows, ni à une synchronisation iCloud. Elle ne se répète pas.
+
+Si macOS répond plutôt que le fichier *provient d'un développeur non
+identifié*, faire un **clic droit sur le fichier > Ouvrir**, puis confirmer.
+Cette réponse-là n'apparaît qu'au premier lancement.
+
 Les données sont écrites dans
 `~/Library/Mobile Documents/com~apple~CloudDocs/Cahier-journal/`, donc
-synchronisées entre le MacBook et l'iMac sans rien faire.
+synchronisées entre le MacBook et l'iMac sans rien faire. Au premier
+démarrage, le référentiel des compétences et l'emploi du temps y sont copiés
+automatiquement ; ensuite ils ne sont plus jamais écrasés.
 
 ## Utilisation en développement (Windows, Linux)
 
